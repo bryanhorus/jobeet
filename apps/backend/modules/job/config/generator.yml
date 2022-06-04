@@ -18,7 +18,7 @@ generator:
       list:
         title:         Job Management
         layout:        stacked
-        display:       [company, position, location, url, is_activated, email]
+        display:       [ is_activated, category, company, email, position, location ]
         params:  |
           %%is_activated%% <small>%%JobeetCategory%%</small> - %%company%%
            (<em>%%email%%</em>) is looking for a %%=position%% (%%location%%)

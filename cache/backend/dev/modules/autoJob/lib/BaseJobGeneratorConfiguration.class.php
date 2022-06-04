@@ -92,7 +92,7 @@ abstract class BaseJobGeneratorConfiguration extends sfModelGeneratorConfigurati
 
   public function getListDisplay()
   {
-    return array(  0 => 'company',  1 => 'position',  2 => 'location',  3 => 'url',  4 => 'is_activated',  5 => 'email',);
+    return array(  0 => 'is_activated',  1 => 'category',  2 => 'company',  3 => 'email',  4 => 'position',  5 => 'location',);
   }
 
   public function getFieldsDefault()
