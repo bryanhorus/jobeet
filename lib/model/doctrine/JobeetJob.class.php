@@ -45,6 +45,7 @@ class JobeetJob extends BaseJobeetJob
             $this->setToken(sha1($this->getEmail().rand(11111, 99999)));
         }
 
+        return parent::save($conn);
 
         $conn = $conn ? $conn : JobeetJobTable::getConnection();
         $conn->beginTransaction();
@@ -64,7 +65,7 @@ class JobeetJob extends BaseJobeetJob
             throw $e;
         }
 
-        return parent::save($conn);
+
     }
 
     public function getTypeName()
