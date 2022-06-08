@@ -1,0 +1,6 @@
+_language:
+  enabled: true
+
+index:
+  enabled:  true
+  lifetime: 600
