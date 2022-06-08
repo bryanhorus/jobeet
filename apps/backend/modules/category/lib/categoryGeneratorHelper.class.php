@@ -10,5 +10,4 @@
  */
 class categoryGeneratorHelper extends BaseCategoryGeneratorHelper
 {
-
 }

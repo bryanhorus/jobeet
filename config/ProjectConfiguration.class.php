@@ -22,6 +22,6 @@ class ProjectConfiguration extends sfProjectConfiguration
 
   public function setup()
   {
-    $this->enablePlugins('sfDoctrinePlugin','sfDoctrineGuardPlugin','sfFormExtraPlugin', 'sfJobeetPlugin');
+    $this->enablePlugins('sfDoctrinePlugin','sfDoctrineGuardPlugin','sfFormExtraPlugin');
   }
 }
