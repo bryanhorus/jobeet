@@ -5,6 +5,7 @@ prod:
   .settings:
     no_script_name:         true
     logging_enabled:        false
+    cache: true
 
 dev:
   .settings:
@@ -41,3 +42,17 @@ all:
 
     standard_helpers: [Partial, Cache, I18N]
 
+    enabled_modules:
+      - default
+      - sfJobeetAffiliate
+      - sfJobeetApi
+      - sfJobeetCategory
+      - sfJobeetJob
+      - sfJobeetLanguage
+
+cache:
+  .settings:
+    error_reporting: <?php echo (E_ALL | E_STRICT)."\n" ?>
+    web_debug:       true
+    cache:           true
+    etag:            false
