@@ -12,6 +12,5 @@ class JobeetJobFormFilter extends BaseJobeetJobFormFilter
 {
   public function configure()
   {
-
   }
 }

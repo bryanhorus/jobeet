@@ -12,7 +12,7 @@ class jobActions extends sfActions
 {
     public function executeIndex(sfWebRequest $request)
     {
-
+        $this->jobeet_jobs = Doctrine_Core::getTable('JobeetJob')->getActiveJobs();
         $this->categories = Doctrine_Core::getTable('JobeetCategory')->getWithJobs();
     }
 
@@ -44,6 +44,7 @@ class jobActions extends sfActions
         $job = $this->getRoute()->getObject();
         $this->form = new JobeetJobForm($job);
         $this->forward404If($job->getIsActivated());
+
 
     }
 
@@ -108,23 +109,4 @@ class jobActions extends sfActions
 
         $this->redirect($this->generateUrl('job_show_user', $job));
     }
-
-    public function executeSearch(sfWebRequest $request)
-    {
-        $this->forwardUnless($query = $request->getParameter('query'), 'job', 'index');
-
-        $this->jobs = Doctrine_Core::getTable('JobeetJob') ->getForLuceneQuery($query);
-
-        if ($request->isXmlHttpRequest())
-        {
-            if ('*' == $query || !$this->jobs)
-            {
-                return $this->renderText('No results.');
-            }
-
-            return $this->renderPartial('job/list', array('jobs' => $this->jobs));
-        }
-    }
-
-
 }
