@@ -1,27 +1,11 @@
 # data/fixtures/categories.yml
 JobeetCategory:
   design:
-    Translation:
-      en:
-        name: Design
-      fr:
-        name: design
+    name: Design
   programming:
-    Translation:
-      en:
-        name: Programming
-      fr:
-        name: Programmation
+    name: Programming
   manager:
-    Translation:
-      en:
-        name: Manager
-      fr:
-        name: Manager
+    name: Manager
   administrator:
-    Translation:
-      en:
-        name: Administrator
-      fr:
-        name: Administrateur
+    name: Administrator
  

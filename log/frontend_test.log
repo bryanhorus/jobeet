@@ -183,23 +183,3 @@ Jun 01 15:33:09 symfony [info] {sfPHPView} Decorate content with "C:\development
 Jun 01 15:33:09 symfony [info] {sfPHPView} Render "C:\development\sfprojects\jobeet\apps\frontend\templates/layout.php"
 Jun 01 15:33:09 symfony [info] {main} Get slot "title"
 Jun 01 15:33:09 symfony [info] {sfWebResponse} Send content (20147 o)
-Jun 06 12:03:40 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
-Jun 06 12:03:40 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
-Jun 06 12:03:40 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/api/index" (/).
-Jun 06 12:03:40 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
-Jun 06 12:03:40 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
-Jun 06 12:03:40 symfony [info] {Doctrine_Connection_Mysql} exec : DELETE FROM sf_guard_user - ()
-Jun 06 12:03:41 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
-Jun 06 12:03:41 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
-Jun 06 12:03:41 symfony [info] {Doctrine_Connection_Mysql} exec : DELETE FROM sf_guard_user - ()
-Jun 06 16:00:15 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
-Jun 06 16:00:15 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
-Jun 06 16:00:15 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/api/index" (/).
-Jun 06 16:00:15 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
-Jun 06 16:00:16 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
-Jun 06 16:00:16 symfony [info] {Doctrine_Connection_Mysql} exec : DELETE FROM sf_guard_user - ()
-Jun 06 16:00:16 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
-Jun 06 16:00:16 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
-Jun 06 16:00:16 symfony [info] {Doctrine_Connection_Mysql} exec : DELETE FROM sf_guard_user - ()
-Jun 06 16:00:16 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
-Jun 06 16:00:16 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/language/index" (/).

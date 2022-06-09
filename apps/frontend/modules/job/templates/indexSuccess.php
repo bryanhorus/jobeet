@@ -16,7 +16,8 @@
         <?php if (($count = $category->countActiveJobs()-
                 sfConfig::get('app_max_jobs_on_homepage')) > 0): ?>
             <div class="more_jobs">
-                <?php echo __('and %count% more...', array('%count%' => link_to($count, 'category', $category))) ?>
+                and <?php echo link_to($count, 'category', $category) ?>
+                more...
             </div>
         <?php endif; ?>
       </div>

@@ -1,5 +1,3 @@
-
-
 <?php use_helper('Text') ?>
 
 <?php foreach ($jobs as $job): ?>
