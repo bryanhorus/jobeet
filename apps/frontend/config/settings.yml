@@ -45,3 +45,10 @@ all:
       - sfJobeetCategory
       - sfJobeetJob
       - sfJobeetLanguage
+
+cache:
+  .settings:
+    error_reporting: <?php echo (E_ALL | E_STRICT)."\n" ?>
+    web_debug:       true
+    cache:           true
+    etag:            false

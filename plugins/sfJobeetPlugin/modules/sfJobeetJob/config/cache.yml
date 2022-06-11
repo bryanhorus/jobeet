@@ -1,0 +1,17 @@
+new:
+  enabled:     true
+
+index:
+  enabled:  true
+  lifetime: 600
+
+all:
+  with_layout: false
+
+_language:
+  enabled:      true
+
+_sidebar:
+  enabled:    true
+  contextual: true
+

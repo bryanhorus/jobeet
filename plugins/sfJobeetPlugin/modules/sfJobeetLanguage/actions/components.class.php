@@ -7,6 +7,8 @@ class sfJobeetLanguageComponents extends sfComponents
         $this->form = new sfFormLanguage(
             $this->getUser(),
             array('languages' => array('en', 'fr'))
+
         );
+        $this->form->disableLocalCSRFProtection();
     }
 }

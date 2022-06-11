@@ -13,6 +13,8 @@ abstract class PluginJobeetJobForm extends BaseJobeetJobForm
     public function setup()
     {
         parent::setup();
+
+        $this->disableLocalCSRFProtection();
         $this->removeFields();
 
         $this->validatorSchema['email'] = new sfValidatorAnd(array(

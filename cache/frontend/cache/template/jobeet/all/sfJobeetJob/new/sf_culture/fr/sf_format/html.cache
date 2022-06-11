@@ -1,0 +1,68 @@
+001655075788001654989388a:3:{s:7:"content";s:2595:"
+<h1>Post a Job</h1>
+
+
+<form method="post" action="/frontend_cache.php/fr/job" enctype="multipart/form-data"><table id="job_form">
+    <tfoot>
+    <tr>
+        <td colspan="2">
+            <input type="submit" value="Preview your job" />
+        </td>
+    </tr>
+    </tfoot>
+    <tbody>
+    <tr>
+  <th><label for="job_category_id">Category</label></th>
+  <td><select name="job[category_id]" id="job_category_id">
+<option value="1">Programmation</option>
+<option value="2">design</option>
+<option value="3">Manager</option>
+<option value="4">Administrateur</option>
+</select></td>
+</tr>
+<tr>
+  <th><label for="job_type">Type</label></th>
+  <td><ul class="radio_list"><li><input name="job[type]" type="radio" value="full-time" id="job_type_full-time" checked="checked" />&nbsp;<label for="job_type_full-time">Full time</label></li>
+<li><input name="job[type]" type="radio" value="part-time" id="job_type_part-time" />&nbsp;<label for="job_type_part-time">Part time</label></li>
+<li><input name="job[type]" type="radio" value="freelance" id="job_type_freelance" />&nbsp;<label for="job_type_freelance">Freelance</label></li></ul></td>
+</tr>
+<tr>
+  <th><label for="job_company">Company</label></th>
+  <td><input type="text" name="job[company]" id="job_company" /></td>
+</tr>
+<tr>
+  <th><label for="job_logo">Company logo</label></th>
+  <td><input type="file" name="job[logo]" id="job_logo" /></td>
+</tr>
+<tr>
+  <th><label for="job_url">Url</label></th>
+  <td><input type="text" name="job[url]" id="job_url" /></td>
+</tr>
+<tr>
+  <th><label for="job_position">Position</label></th>
+  <td><input type="text" name="job[position]" id="job_position" /></td>
+</tr>
+<tr>
+  <th><label for="job_location">Location</label></th>
+  <td><input type="text" name="job[location]" id="job_location" /></td>
+</tr>
+<tr>
+  <th><label for="job_description">Description</label></th>
+  <td><textarea rows="4" cols="30" name="job[description]" id="job_description"></textarea></td>
+</tr>
+<tr>
+  <th><label for="job_how_to_apply">How to apply?</label></th>
+  <td><textarea rows="4" cols="30" name="job[how_to_apply]" id="job_how_to_apply"></textarea></td>
+</tr>
+<tr>
+  <th><label for="job_is_public">Public?</label></th>
+  <td><input type="checkbox" name="job[is_public]" checked="checked" id="job_is_public" /><br />Whether the job can also be published on sfJobeetAffiliate websites or not.</td>
+</tr>
+<tr>
+  <th><label for="job_email">Email</label></th>
+  <td><input type="text" name="job[email]" id="job_email" /><input type="hidden" name="job[id]" id="job_id" /></td>
+</tr>
+    </tbody>
+</table>
+</form>
+";s:17:"decoratorTemplate";s:67:"C:\development\sfprojects\jobeet\apps\frontend\templates/layout.php";s:8:"response";C:13:"sfWebResponse":526:{a:11:{i:0;s:0:"";i:1;i:200;i:2;s:2:"OK";i:3;a:5:{s:13:"http_protocol";s:8:"HTTP/1.1";s:7:"logging";s:1:"1";s:7:"charset";s:5:"utf-8";s:17:"send_http_headers";b:1;s:12:"content_type";s:24:"text/html; charset=utf-8";}i:4;b:0;i:5;a:1:{s:12:"Content-Type";s:24:"text/html; charset=utf-8";}i:6;a:0:{}i:7;a:1:{s:12:"Content-Type";s:24:"text/html; charset=utf-8";}i:8;a:3:{s:5:"first";a:0:{}s:0:"";a:2:{s:8:"main.css";a:0:{}s:7:"job.css";a:0:{}}s:4:"last";a:0:{}}i:9;a:3:{s:5:"first";a:0:{}s:0:"";a:0:{}s:4:"last";a:0:{}}i:10;a:0:{}}}}
