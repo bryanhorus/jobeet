@@ -59,3 +59,9 @@ affiliate:
     model: JobeetAffiliate
     actions: [new, create]
     object_actions: { wait: get }
+
+job_search:
+  url:   /search.:sf_format
+  param: { module: job, action: search, sf_format: html }
+  requirements:
+    sf_format: (?:html|js)

@@ -67,4 +67,6 @@ class JobeetTestFunctional extends sfTestFunctional
         return $q->fetchOne();
     }
 
+
+
 }
