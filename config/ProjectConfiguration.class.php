@@ -7,7 +7,7 @@ class ProjectConfiguration extends sfProjectConfiguration
 {
   public function setup()
   {
-    $this->enablePlugins('sfDoctrinePlugin','sfDoctrineGuardPlugin');
+    $this->enablePlugins('sfDoctrinePlugin','sfDoctrineGuardPlugin', 'sfFormExtraPlugin');
   }
 
     static protected $zendLoaded = false;
