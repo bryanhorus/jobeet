@@ -56,7 +56,7 @@ class sfDoctrineFormFilterGenerator extends sfDoctrineFormGenerator
     $models = $this->loadModels();
 
     // create the project base class for all forms
-    $file = sfConfig::get('sf_lib_dir').'/filter/doctrine/BaseFormFilterDoctrine.class.php';
+    $file = sfConfig::get('sf_lib_dir').'/filter/doctrine/PluginBaseFormFilterDoctrine.class.php';
     if (!file_exists($file))
     {
       if (!is_dir($directory = dirname($file)))

@@ -4,10 +4,10 @@ require_once dirname(__FILE__).'/../lib/affiliateGeneratorConfiguration.class.ph
 require_once dirname(__FILE__).'/../lib/affiliateGeneratorHelper.class.php';
 
 /**
- * affiliate actions.
+ * sfJobeetAffiliate actions.
  *
  * @package    jobeet
- * @subpackage affiliate
+ * @subpackage sfJobeetAffiliate
  * @author     Your name here
  * @version    SVN: $Id: actions.class.php 23810 2009-11-12 11:07:44Z Kris.Wallsmith $
  */

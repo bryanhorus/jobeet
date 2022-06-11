@@ -7,9 +7,9 @@ $browser = new sfTestFunctional(new sfBrowser());
 $browser->loadData();
 
 $browser->
-info('1 - An affiliate can create an account')->
+info('1 - An sfJobeetAffiliate can create an account')->
 
-get('/affiliate/new')->
+get('/sfJobeetAffiliate/new')->
 click('Submit', array('jobeet_affiliate' => array(
     'url'                            => 'http://www.example.com/',
     'email'                          => 'foo@example.com',
@@ -17,11 +17,11 @@ click('Submit', array('jobeet_affiliate' => array(
 )))->
 with('response')->isRedirected()->
 followRedirect()->
-with('response')->checkElement('#content h1', 'Your affiliate account has been created')->
+with('response')->checkElement('#content h1', 'Your sfJobeetAffiliate account has been created')->
 
-info('2 - An affiliate must at least select one category')->
+info('2 - An sfJobeetAffiliate must at least select one category')->
 
-get('/affiliate/new')->
+get('/sfJobeetAffiliate/new')->
 click('Submit', array('jobeet_affiliate' => array(
     'url'   => 'http://www.example.com/',
     'email' => 'foo@example.com',

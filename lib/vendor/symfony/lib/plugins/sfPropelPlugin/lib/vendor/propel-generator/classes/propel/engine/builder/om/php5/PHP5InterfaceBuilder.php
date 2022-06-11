@@ -69,7 +69,7 @@ class PHP5InterfaceBuilder extends ObjectBuilder {
 
 		$script .= "
 /**
- * This is an interface that should be filled with the public api of the $tableName objects.
+ * This is an interface that should be filled with the public sfJobeetApi of the $tableName objects.
  *
  * $tableDesc
  *";

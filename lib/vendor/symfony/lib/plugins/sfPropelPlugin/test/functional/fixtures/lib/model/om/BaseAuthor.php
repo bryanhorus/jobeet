@@ -897,7 +897,7 @@ abstract class BaseAuthor extends BaseObject  implements Persistent {
 	 * been saved, it will retrieve related AuthorArticles from storage.
 	 *
 	 * This method is protected by default in order to keep the public
-	 * api reasonable.  You can provide public methods for those you
+	 * sfJobeetApi reasonable.  You can provide public methods for those you
 	 * actually need in Author.
 	 */
 	public function getAuthorArticlesJoinArticle($criteria = null, $con = null, $join_behavior = Criteria::LEFT_JOIN)
