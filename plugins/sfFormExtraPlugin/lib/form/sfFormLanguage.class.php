@@ -57,7 +57,7 @@ class sfFormLanguage extends sfForm
       throw new RuntimeException(sprintf('%s requires a "languages" option.', get_class($this)));
     }
 
-    parent::__construct(array('sfJobeetLanguage' => $user->getCulture()), $options, $CSRFSecret);
+    parent::__construct(array('Language' => $user->getCulture()), $options, $CSRFSecret);
   }
 
   /**
@@ -65,7 +65,7 @@ class sfFormLanguage extends sfForm
    */
   public function save()
   {
-    $this->user->setCulture($this->getValue('sfJobeetLanguage'));
+    $this->user->setCulture($this->getValue('Language'));
   }
 
   /**
@@ -77,7 +77,7 @@ class sfFormLanguage extends sfForm
    */
   public function process(sfRequest $request)
   {
-    $data = array('sfJobeetLanguage' => $request->getParameter('sfJobeetLanguage'));
+    $data = array('Language' => $request->getParameter('Language'));
     if ($request->hasParameter(self::$CSRFFieldName))
     {
       $data[self::$CSRFFieldName] = $request->getParameter(self::$CSRFFieldName);
@@ -99,11 +99,11 @@ class sfFormLanguage extends sfForm
   public function configure()
   {
     $this->setValidators(array(
-      'sfJobeetLanguage' => new sfValidatorI18nChoiceLanguage(array('languages' => $this->options['languages'])),
+      'Language' => new sfValidatorI18nChoiceLanguage(array('languages' => $this->options['languages'])),
     ));
 
     $this->setWidgets(array(
-      'sfJobeetLanguage' => new sfWidgetFormI18nChoiceLanguage(array('culture' => $this->user->getCulture(), 'languages' => $this->options['languages'])),
+      'Language' => new sfWidgetFormI18nChoiceLanguage(array('culture' => $this->user->getCulture(), 'languages' => $this->options['languages'])),
     ));
   }
 }

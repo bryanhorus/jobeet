@@ -31,8 +31,6 @@
  * @version     $Revision: 7681 $
  * @link        www.doctrine-project.org
  * @since       1.0
- * @method mixed findBy*(mixed $value) magic finders; @see __call()
- * @method mixed findOneBy*(mixed $value) magic finders; @see __call()
  */
 class Doctrine_Table extends Doctrine_Configurable implements Countable
 {

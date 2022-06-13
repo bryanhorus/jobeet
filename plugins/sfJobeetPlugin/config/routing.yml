@@ -84,3 +84,5 @@ localized_homepage:
 homepage:
   url:   /
   param: { module: sfJobeetJob, action: index }
+  requirements:
+    sf_culture: (?:fr|en)

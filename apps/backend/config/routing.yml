@@ -2,8 +2,8 @@ jobeet_affiliate:
   class: sfDoctrineRouteCollection
   options:
     model:                JobeetAffiliate
-    module:               sfJobeetAffiliate
-    prefix_path:          /sfJobeetAffiliate
+    module:               affiliate
+    prefix_path:          /affiliate
     column:               id
     with_wildcard_routes: true
 

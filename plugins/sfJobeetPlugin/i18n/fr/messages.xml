@@ -20,15 +20,14 @@
         <source>Become an affiliate</source>
         <target>Devenir un affiliÃ©</target>
       </trans-unit>
-        <trans-unit id="5">
+      <trans-unit id="5">
         <source>and %count% more...</source>
-          <target>et %count% autres...</target>
-        <target/>
+        <target>et %count% autres...</target>
       </trans-unit>
-        <trans-unit id="6">
-            <source>[0]No job in this category|[1]One job in this category|(1,+Inf]%count% jobs in this category</source>
-            <target>[0]Aucune annonce dans cette catÃ©gorie|[1]Une annonce dans cette catÃ©gorie|(1,+Inf]%count% annonces dans cette catÃ©gorie</target>
-        </trans-unit>
+      <trans-unit id="6">
+        <source>[0]No job in this category|[1]One job in this category|(1,+Inf]%count% jobs in this category</source>
+        <target>[0]Aucune annonce dans cette catÃ©gorie|[1]Une annonce dans cette catÃ©gorie|(1,+Inf]%count% annonces dans cette catÃ©gorie</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

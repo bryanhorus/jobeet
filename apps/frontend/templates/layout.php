@@ -75,7 +75,6 @@
             <?php echo $sf_content ?>
         </div>
     </div>
-
     <div id="footer">
         <div class="content">
     <span class="symfony">
@@ -94,7 +93,7 @@
                     <a href=""><?php echo __('Jobeet API') ?></a>
                 </li>
                 <li class="last">
-                    <?php echo link_to(__('Become an Affiliate'), 'affiliate_new') ?>
+                    <?php echo link_to(__('Become an affiliate'), 'affiliate_new') ?>
                 </li>
             </ul>
             <?php include_component('sfJobeetLanguage', 'language') ?>
