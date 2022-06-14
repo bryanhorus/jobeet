@@ -58,7 +58,7 @@ class sfJobeetJobActions extends sfActions
         $this->form = new JobeetJobForm($this->getRoute()->getObject());
         $job = $this->getRoute()->getObject();
         $this->form = new JobeetJobForm($job);
-        $this->forward404If($job->getIsActivated());
+       // $this->forward404If($job->getIsActivated());
 
 
     }

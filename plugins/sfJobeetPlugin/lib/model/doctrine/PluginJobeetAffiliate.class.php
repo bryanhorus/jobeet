@@ -31,7 +31,7 @@ abstract class PluginJobeetAffiliate extends BaseJobeetAffiliate
     {
         if (!$this->getToken())
         {
-            $this->setToken(sha1($object->getEmail().rand(11111, 99999)));
+            $this->setToken(sha1($this->getEmail().rand(11111, 99999)));
         }
 
         parent::save($conn);
